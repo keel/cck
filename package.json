@@ -1,0 +1,28 @@
+{
+  "name": "cck",
+  "version": "0.1.0",
+  "description": "A check tool for string, integer, email, url, etc.",
+  "main": "lib/cck.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/keel/cck.git"
+  },
+  "keywords": [
+    "cck",
+    "util",
+    "tool",
+    "check",
+    "email",
+    "url",
+    "string"
+  ],
+  "author": "keel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keel/cck/issues"
+  },
+  "homepage": "https://github.com/keel/cck#readme"
+}
