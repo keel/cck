@@ -1,4 +1,6 @@
-# A check tool for string, integer, email, url, etc.
+# A nodejs strict validator
+A strict validator in nodeJs ,check for string, integer, email, etc.
+Support batch check.
 
 ## Installation
 ```
@@ -6,24 +8,23 @@ npm install cck --save
 ```
 
 ## Check types
-cck.check
-* notNull
-* notNullOrFalse
+* notNull // 0,false,'' will return true
+* notNullOrFalse // 0, '' will return true
 * number
 * string
 * array
 * regExp
 * int
-* intRange
-* strLen
-* strLen
-* arrLen
+* intRange //range
+* strLen //range
+* arrLen //range
 * telCN //中国电话号码
 * mobileCN //中国手机号码
 * email
 * bjx //百家姓
 * cnWord //中文或空格
 
+cck.check
 ```javascript
 var t = {name:'dd',age:23};
 cck.check(t.name,'strLen',[3,5]); //false
@@ -97,3 +98,5 @@ cck.msToTime(1446940800000); //'2015-11-08 08:00:00'
  */
 cck.timeToMS(2015,11,8,8); // 1446940800000
 ```
+## More
+Check out 'test.cck.js'.

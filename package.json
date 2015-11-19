@@ -1,7 +1,7 @@
 {
   "name": "cck",
-  "version": "0.1.0",
-  "description": "A check tool for string, integer, email, url, etc.",
+  "version": "1.0.1",
+  "description": "A strict validator for string, integer, email, etc.",
   "main": "lib/cck.js",
   "scripts": {
     "test": "mocha"
@@ -12,6 +12,9 @@
   },
   "keywords": [
     "cck",
+    "validator",
+    "validate",
+    "validation",
     "util",
     "tool",
     "check",
