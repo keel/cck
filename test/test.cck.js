@@ -131,11 +131,19 @@ describe('cck.js', function () {
 
 
   describe('#timeToMS()', function () {
+    var d = new Date();
+    d.setDate(8);
+    d.setHours(8,0,0,0);
+    var ms = d.getTime();
+    var year = d.getFullYear();
+    var month = d.getMonth()+1;
+    var mStr = (month < 10) ? '0'+month : month;
+    var str = year+'-'+mStr+'-08 08:00:00';
     it('should return yyyy-MM-dd hh:mm:ss', function () {
-      expect(cck.msToTime(1446940800000)).to.be.eql('2015-11-08 08:00:00');
+      expect(cck.msToTime(ms)).to.be.eql(str);
     });
     it('should return millisecond', function () {
-      expect(cck.timeToMS(2015,11,8,8)).to.be.eql(1446940800000);
+      expect(cck.timeToMS(year,month,8,8)).to.be.eql(ms);
     });
   });
 
