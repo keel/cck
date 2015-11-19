@@ -99,4 +99,4 @@ cck.msToTime(1446940800000); //'2015-11-08 08:00:00'
 cck.timeToMS(2015,11,8,8); // 1446940800000
 ```
 ## More
-Check out 'test.cck.js'.
+Check out ['test.cck.js'](https://github.com/keel/cck/blob/master/test/test.cck.js).
