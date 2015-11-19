@@ -19,6 +19,11 @@
     "url",
     "string"
   ],
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "rewire": "^2.3.3",
+    "mocha": "^2.2.5"
+  },
   "author": "keel",
   "license": "MIT",
   "bugs": {

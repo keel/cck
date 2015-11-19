@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+*.log
+test.js
+.jshintrc
+temp/
+java-android/
+c-ndk/
+c/
+ndk/
+php/
+node_modules/
+public/
+.deploy*/
