@@ -1,4 +1,6 @@
 # A nodejs strict validator
+[![Build Status](https://travis-ci.org/keel/cck.svg)](https://travis-ci.org/keel/cck)
+
 A strict validator in nodeJs ,check for string, integer, email, etc.
 Support batch check.
 

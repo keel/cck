@@ -2,7 +2,7 @@
 'use strict';
 
 var expect = require('chai').expect;
-var tool =  require('./tool');
+var tool =  require('../lib/test-tool');
 var cck =  require('../lib/cck');
 
 describe('cck.js', function () {
