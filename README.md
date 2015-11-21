@@ -82,10 +82,12 @@ var re = cck.checkBatch(arr); //return [2] ,the failed index or arr
 
 /**
  * millisecond to 'yyyy-MM-dd hh:mm:ss'
- * @param  {int} millSeccond
+ * @param  {int} [millSeccond]
  * @return {string}
  */
 cck.msToTime(1446940800000); //'2015-11-08 08:00:00'
+
+cck.msToTime(); //'2015-11-21 10:23:36' current time
 
 /**
  * to millisecond
