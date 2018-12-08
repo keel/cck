@@ -1,6 +1,6 @@
 {
   "name": "cck",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "A strict validator for string, integer, email, etc.",
   "main": "lib/cck.js",
   "scripts": {
@@ -24,8 +24,8 @@
   ],
   "devDependencies": {
     "chai": "^2.3.0",
-    "rewire": "^2.3.3",
-    "mocha": "^2.2.5"
+    "mocha": "^5.2.0",
+    "rewire": "^2.5.2"
   },
   "author": "keel",
   "license": "MIT",

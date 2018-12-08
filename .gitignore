@@ -1,9 +1,6 @@
 .DS_Store
 Thumbs.db
 *.log
-test.js
-.jshintrc
 node_modules/
 temp/
-public/
-.deploy*/
+package-lock.json
