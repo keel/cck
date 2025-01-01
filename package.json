@@ -1,6 +1,6 @@
 {
   "name": "cck",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "description": "A strict validator for string, integer, email, etc.",
   "main": "lib/cck.js",
   "scripts": {
